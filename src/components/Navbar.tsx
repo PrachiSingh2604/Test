@@ -21,11 +21,11 @@ const Navbar = () => {
   const menuItems = [
     { text: 'Home', path: '/' },
     { text: 'About Us', path: '/about' },
+    { text: 'IT Roles', path: '/roles' },
+    { text: 'How It Works', path: '/how-it-works' },
     { text: 'Our Services', path: '/services' },
     { text: 'Why Choose Us', path: '/why-choose-us' },
-    { text: 'How It Works', path: '/how-it-works' },
     { text: 'Testimonials', path: '/testimonials' },
-    { text: 'IT Roles', path: '/roles' },
     { text: 'Contact', path: '/contact' },
   ];
 

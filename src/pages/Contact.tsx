@@ -125,18 +125,19 @@ const Contact = () => {
               <Typography paragraph>
                 Head Office: Gurugram, Haryana
               </Typography>
-            </Paper>
-            <Box sx={{ mt: 4, height: '400px' }}>
-              <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-                <GoogleMap
-                  mapContainerStyle={mapContainerStyle}
-                  center={center}
-                  zoom={14}
-                >
-                  <Marker position={center} />
-                </GoogleMap>
-              </LoadScript>
-            </Box>
+              </Paper>
+<Box sx={{ mt: 4, height: '400px' }}>
+  <iframe
+    src="https://maps.google.com/maps?q=Gurgaon%2C%20Haryana&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    loading="lazy"
+    allowFullScreen
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</Box>
+
           </motion.div>
         </Grid>
       </Grid>
