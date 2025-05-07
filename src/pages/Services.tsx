@@ -53,14 +53,7 @@ const Services = () => {
   return (
     <Box sx={{ py: 10, backgroundColor: '#f4f9fb' }}>
       <Container>
-        <Typography variant="h3" gutterBottom sx={{ fontWeight: 'bold', mb: 2 }}>
-          How It Works
-        </Typography>
-        <Typography variant="h6" sx={{ mb: 6, color: 'gray' }}>
-          Our Proven Recruitment Process: A structured approach to find the perfect match between talented IT professionals and organizational needs.
-        </Typography>
-
-        <Typography variant="h4" gutterBottom sx={{ mt: 6 }}>
+        <Typography variant="h4" gutterBottom>
           💼 Services for Clients
         </Typography>
         <Grid container spacing={4} sx={{ mb: 10 }}>
